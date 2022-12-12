@@ -19,11 +19,11 @@ def get_data_to_cluster(product_name='', count=0):
   """
   # 확인 후 수정 ****************************************
   if product_name == '신라면':
-    path = '../data/점수파일/shin_naver_500_score.csv'
+    path = '../data/점수파일/shin_0_score.csv'
   elif product_name == '진라면':
-    path = '../data/점수파일/jin_naver_score.csv'
+    path = '../data/점수파일/jin_0_score.csv'
   elif product_name == '푸르밀 검은콩우유':
-    path = '../data/점수파일/purmil_naver_score.csv'
+    path = '../data/점수파일/purmil_0_score.csv'
   else:
     pass
 
