@@ -28,7 +28,7 @@ scope = ["https://spreadsheets.google.com/feeds",
          "https://www.googleapis.com/auth/drive.file",
          "https://www.googleapis.com/auth/drive"]
 
-creds = ServiceAccountCredentials.from_json_keyfile_name("/Users/luvooya/Desktop/sanggyungproject-99b6b69f33f6.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name(st.secrets["api_key"], scope)
 
 spreadsheet_name = "productName"
 client = gspread.authorize(creds)
